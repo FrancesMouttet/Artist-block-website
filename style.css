@@ -41,7 +41,7 @@ nav a {
 .hero {
   height: 100vh;
 
-  background-image: url("finalP/cover.jpeg");
+  background-image: url("cover.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
