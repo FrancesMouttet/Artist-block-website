@@ -41,7 +41,7 @@ nav a {
 .hero {
   height: 100vh;
 
-  background-image: url("cover.jpeg");
+  background-image: url("finalP/cover.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -307,3 +307,102 @@ nav a {
   color: #ffffff;
 }
 
+.back-btn,
+.external-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 28px;
+
+  background-color: #ffffff;
+  color: #964b37;
+  border: 1px solid #ffffff;
+
+  text-decoration: none;
+  font-family: 'Futura PT', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+
+  min-width: 260px;
+  text-align: center;
+}
+
+.back-btn:hover,
+.external-btn:hover {
+  background-color: #964b37;
+  color: #ffffff;
+}
+
+.contact-page {
+  max-width: 700px;
+  margin: 60px auto;
+}
+
+.contact-info {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.contact-box {
+  border: 1px solid white;
+  padding: 10px;
+  color: white;
+}
+
+.contact-box h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.contact-box p,
+.contact-box a {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.social-box {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.social-box h3 {
+  margin-bottom: 0;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.social-icons img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.contact-page {
+  max-width: 700px;
+  margin: 60px auto;
+}
+
+.contact-page .form-box,
+.contact-page .contact-info {
+  width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-page .contact-box {
+  width: 480px;
+  box-sizing: border-box;
+}
+
+.form-box,
+.contact-box {
+  background-color: #799dd2;
+}
